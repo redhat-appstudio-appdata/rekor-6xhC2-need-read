@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rekor-server
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/rekor/rekor-server@sha256:8a1a5cf4466bcc048aea461672f5ef9dc6c4be37714672903d409cecdf3bc1b0
+        name: container-image
+        resources: {}
+status: {}
