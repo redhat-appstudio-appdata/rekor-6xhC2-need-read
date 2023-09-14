@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/rekor/rekor-cli@sha256:fe993df43fba9f62fff9da592614b43154fa160dc90bf15291588bb588d1d174
+      - image: quay.io/redhat-user-workloads/securesign-tenant/rekor/rekor-cli@sha256:579f3479c79de7d30a5d38707c4de0846cb3c5ce65475da1f0604394c7dec46a
         name: container-image
         resources: {}
 status: {}
