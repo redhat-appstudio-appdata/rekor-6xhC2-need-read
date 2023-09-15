@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backfill-redis
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/rekor/backfill-redis@sha256:469bf2db815b498167e61b3544c86fbd5bd3cc42300e2f44ddf231d434e1c441
+        name: container-image
+        resources: {}
+status: {}
