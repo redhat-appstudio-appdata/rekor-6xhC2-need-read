@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/rekor/backfill-redis@sha256:469bf2db815b498167e61b3544c86fbd5bd3cc42300e2f44ddf231d434e1c441
+      - image: quay.io/redhat-user-workloads/securesign-tenant/rekor/backfill-redis@sha256:6993d7b368dd27a556255fc547120eee2659690d1bce98ee7db8e3b52493b460
         name: container-image
         resources: {}
 status: {}
